@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBarHeader from './components/NavBar'
+import NavBarHeader from './components/NavBar/NavBar'
+
 
 class App extends Component{
 
