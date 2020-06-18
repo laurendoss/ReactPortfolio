@@ -1,0 +1,20 @@
+#cardText {
+    float: left;
+    width: 600px;
+    margin-top: 300px;
+    margin-left: 200px; 
+    border-radius: 10%;
+}
+
+#cartHolder {
+    flex-direction: row;
+    
+}
+
+#header {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+#textBody {
+    font-family: "Lucida Console", Courier, monospace;
+}
