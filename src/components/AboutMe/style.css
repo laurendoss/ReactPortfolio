@@ -4,6 +4,9 @@
     margin-top: 300px;
     margin-left: 200px; 
     border-radius: 10%;
+    opacity: 0.8;
+    
+    
 }
 
 #cartHolder {
@@ -13,8 +16,11 @@
 
 #header {
     font-family: "Lucida Console", Courier, monospace;
+    font-weight: bolder;
 }
 
 #textBody {
     font-family: "Lucida Console", Courier, monospace;
+    font-weight: bold;
+    
 }
