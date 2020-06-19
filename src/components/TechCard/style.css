@@ -18,5 +18,5 @@
 
 #cardHolder{
     flex-direction: row;
-
+    font-weight: bolder;
 }
