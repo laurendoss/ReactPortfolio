@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBarHeader from './components/NavBar/NavBar'
-import Photo from './components/Image/Image'
-import AboutMe from './components/AboutMe/AboutMe'
-import TechCard from './components/TechCard/TechCard'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import HomePage from './pages/HomePage'
+import Portfolio from './pages/Portfolio'
+import Contact from'./pages/Contact'
+import NavBar from './components/NavBar/NavBar'
+
 
 
 class App extends Component{
@@ -13,13 +15,22 @@ class App extends Component{
   render() {
 
     return (
-      <div className="App">
-        <NavBarHeader/>
-        <Photo/>
-        <AboutMe/>
-        <TechCard/>
-
+      <Router>
+      <div>
+        <NavBar />
+        <Switch>
+          <Route exact path={["/", "/home"]}>
+            <HomePage />
+          </Route>
+          <Route exact path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
       </div>
+    </Router>
     );
   }
 }
