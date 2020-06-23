@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage'
 import Portfolio from './pages/Portfolio'
 import Contact from'./pages/Contact'
 import NavBar from './components/NavBar/NavBar'
+import FooterPage from './components/Footer/Footer'
 
 
 
@@ -19,17 +20,18 @@ class App extends Component{
       <div>
         <NavBar />
         <Switch>
-          <Route exact path={["/", "/home"]}>
+          <Route exact path={["/", "/home"]} component={HomePage}>
             <HomePage />
           </Route>
-          <Route exact path="/portfolio">
+          <Route exact path="/portfolio" component={Portfolio}>
             <Portfolio />
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/contact" component={Contact}>
             <Contact />
           </Route>
         </Switch>
       </div>
+      <FooterPage/>
     </Router>
     );
   }

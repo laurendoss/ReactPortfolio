@@ -11,7 +11,7 @@ function HomePage () {
 
     return (
       <div className="App">
-      
+  
         <Photo/>
         <AboutMe/>
         <TechCard/>
