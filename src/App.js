@@ -22,15 +22,18 @@ class App extends Component{
         <Switch>
           <Route exact path={["/", "/home"]} component={HomePage}>
             <HomePage />
+            <FooterPage />
           </Route>
           <Route exact path="/portfolio" component={Portfolio}>
             <Portfolio />
+            <FooterPage />
           </Route>
           <Route exact path="/contact" component={Contact}>
             <Contact />
+            <FooterPage />
           </Route>
         </Switch>
-        <FooterPage />
+        
       </div>
     
     </Router>

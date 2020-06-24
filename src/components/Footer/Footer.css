@@ -9,10 +9,15 @@
 
     
 }
-
-#footerHolder{
+/* 
+.page-footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #F5F5F5 ;
+} */
+/* #footerHolder{
     
     display: block;
     position: relative;
    
-}
+} */
