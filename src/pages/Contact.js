@@ -1,7 +1,8 @@
 import React from 'react'; 
 
 import Photo from '../components/Image/Image'
-import TechCard from '../components/TechCard/TechCard'
+import ContactCard from '../components/Contact/Contact'
+
 
 
 
@@ -12,11 +13,9 @@ function HomePage () {
       <div className="App">
       
         <Photo/>
-        <TechCard/>
-        <TechCard/>
-        <TechCard/>
-        <TechCard/>
+        <ContactCard/>
         
+       
 
       </div>
     );
