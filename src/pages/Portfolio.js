@@ -32,7 +32,7 @@ function Portfolio () {
         name="Budget Tracker"
         link="https://immense-journey-14942.herokuapp.com/"
         src="./projectImages/budget.png"
-        description="Full Stack Application where the user can enter deposits and expenses offline. Once the application is brought back online, the offline entries are added back into the tracker. This application utilized IndexedDB as its database."
+        description="Full Stack Application where the user can enter deposits and expenses offline. Once the application is brought back online, the offline entries are added back into the tracker. This application utilized IndexedDB and MongoDB as its database."
         />
         <Project
         name="Explore Cascadia"

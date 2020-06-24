@@ -4,10 +4,11 @@ import"./Footer.css"
 
 const FooterPage = () => {
   return (
+      
     <MDBFooter className="font-small pt-4 mt-4">
       <MDBContainer id="footerElement"  fluid className="text-center text-md-left">
         <MDBRow>
-          <MDBCol md="6">
+          <MDBCol md="12">
             <h5 className="title">Footer Content</h5>
             <p>
               Here you can use rows and columns here to organize your footer
@@ -32,6 +33,7 @@ const FooterPage = () => {
       </MDBContainer>
      
     </MDBFooter>
+  
   );
 }
 

@@ -30,9 +30,11 @@ class App extends Component{
             <Contact />
           </Route>
         </Switch>
+        <FooterPage />
       </div>
-      <FooterPage/>
+    
     </Router>
+    
     );
   }
 }

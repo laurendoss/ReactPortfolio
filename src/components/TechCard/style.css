@@ -14,11 +14,12 @@
     margin-left: 300px;
     float: left;
     border-radius: 10%;
-    position: sticky;
+    position: relative;
    
 }
 
-#cardHolder{
+/* #cardHolder{
     flex-direction: row;
     font-weight: bolder;
-}
+    
+} */
