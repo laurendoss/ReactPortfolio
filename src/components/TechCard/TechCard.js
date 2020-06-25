@@ -1,5 +1,7 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 import expressJS from '../../images/express.png'
 import html5 from '../../images/html5.png'
 import cssPng from '../../images/css.png'
@@ -13,6 +15,8 @@ import './style.css'
 function TechCard(){
 
     return(
+        <Container>
+            <Row>
         <div id="cardHolder">
         <Card id="techImgHolder">
   <Card.Body>
@@ -29,6 +33,9 @@ function TechCard(){
   </Card.Body>
 </Card>
 </div>
+</Row>
+</Container>
+
     )
 
 }
