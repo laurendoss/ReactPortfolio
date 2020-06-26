@@ -1,11 +1,11 @@
 #photo {
     height: 400px;
     width: 300px;
-    float: right;
-    margin-right: 300px;
+    /* float: right; */
+    /* margin-right: 300px; */
     margin-top: 200px;
     border-radius: 10%;
-    position: sticky;
+    /* position: sticky; */
 }
 
 #imgHolder {

@@ -2,12 +2,13 @@
     height: 200px;
     width: 430px;
     opacity: 0.8;
-    margin-top: 300px;
+    /* margin-top: 300px;
     margin-left: 350px;
-    float: left;
+    float: left; */
     border-radius: 10%;
-    position: relative;
-    margin-bottom: 600px;
+    margin-top: 300px;
+    /* position: relative;
+    margin-bottom: 600px; */
     font-family: "Lucida Console", Courier, monospace;
     font-weight: bolder;
     
