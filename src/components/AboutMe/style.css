@@ -1,17 +1,18 @@
 #cardText {
-    float: left;
-    width: 400px;
-    margin-top: 200px;
-    margin-left: 100px; 
+    /* float: left; */
+    width: 600px;
+    /* margin-top: 200px;
+    margin-left: 100px;  */
     border-radius: 10%;
     opacity: 0.8;
-    position: sticky;
+    margin-top: 200px;
+    /* position: sticky; */
     
     
 }
 
 #cartHolder {
-    flex-direction: row;
+    /* flex-direction: row; */
     
 }
 

@@ -10,11 +10,12 @@
     height: 330px;
     width: 430px;
     opacity: 0.8;
-    margin-top: 800px;
+    margin-top: 200px;
+    /* margin-top: 800px; */
     /* margin-left: 100px; */
-    float: left;
+    /* float: left; */
     border-radius: 10%;
-    position: relative;
-    margin-bottom: 200px;
+    /* position: relative;
+    margin-bottom: 200px; */
    
 }
