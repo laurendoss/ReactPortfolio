@@ -15,10 +15,7 @@ function HomePage () {
       <div className="App">
       <Container>
         <Row>
-          <Col md={{ span: 3, offset: 3}}>
-        <Photo/>
-        </Col>
-        <Col md={{ span: 3, offset: 3}}>
+        <Col md={{ span: 6, offset: 3}}>
         <ContactCard/>
         </Col>
         </Row>
