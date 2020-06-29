@@ -1,5 +1,6 @@
 #nav {
-    opacity: 0.8
+    opacity: 0.8; 
+    width: 100%; 
 }
 #title {
     font-size: 40px;
