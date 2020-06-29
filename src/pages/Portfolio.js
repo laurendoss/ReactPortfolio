@@ -22,7 +22,9 @@ function Portfolio () {
         <Project
         name="Explore Cocktails"
         link="https://team-project-02.herokuapp.com/"
+        repo="https://github.com/laurendoss/ExploreCocktails"
         src={cocktailImg}
+        role="Back End Developer"
         description="Full Stack Application where the user can search through a Mongo Database of Cocktails based off of a drink name or type of alcohol, the user can add their own drinks to the database, and can also see the recently added drinks."
         />
         </Col>
@@ -32,7 +34,9 @@ function Portfolio () {
         <Project
         name="Dunder Mifflin Employee Directory"
         link="https://employee-directory-scranton.herokuapp.com/"
+        repo="https://github.com/laurendoss/DunderMifflinEmployeeTracker"
         src={dunderImg}
+        role="Full Stack Developer"
         description="React Application where the user can sort columns and search for a particular Employee within the Dunder Mifflin Scranton Employee Directory"
         />
         </Col>
@@ -42,7 +46,9 @@ function Portfolio () {
         <Project
         name="Note Taker"
         link="https://new-note-taker.herokuapp.com/"
+        repo="https://github.com/laurendoss/NoteTaker"
         src={noteImg}
+        role="Back End Developer"
         description="A Full Stack that allows the user to take notes, view past notes, and delete desired notes. "
         />
         </Col>
@@ -52,6 +58,8 @@ function Portfolio () {
         <Project
         name="Budget Tracker"
         link="https://immense-journey-14942.herokuapp.com/"
+        repo="https://github.com/laurendoss/BudgetTracker"
+        role="Back End Developer"
         src={budgetImg}
         description="Full Stack Application where the user can enter deposits and expenses offline. Once the application is brought back online, the offline entries are added back into the tracker. This application utilized IndexedDB and MongoDB as its database."
         />
@@ -62,6 +70,8 @@ function Portfolio () {
         <Project
         name="Explore Cascadia"
         link="https://dylanhulbert.github.io/project-01/"
+        repo="https://github.com/laurendoss/ExploreCascadia"
+        role="Full Stack Developer"
         src={cascadiaImg}
         description="A responsive webpage utilizing data from the NPS (National Park Service) API and the Weather API. Using the data collected from the response, the user can see the park hours, directions, five day forecast, and two images of each of the parks upon selection from the dropdown."
         />

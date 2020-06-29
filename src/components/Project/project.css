@@ -11,8 +11,12 @@
 .projectButton {
 background-color: #98A8A8;
 border-color: #98A8A8;
+margin-top: 10px; 
 }
 
+.role {
+    font-family: "Lucida Console", Courier, monospace;
+}
 .cardTitle{
     font-family: "Lucida Console", Courier, monospace;
     font-weight: bolder;
