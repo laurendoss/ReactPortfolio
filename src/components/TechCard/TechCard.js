@@ -15,7 +15,7 @@ import './style.css'
 function TechCard(){
 
     return(
-        <Container>
+        <Container fluid>
             <Row>
         <div id="cardHolder">
         <Card id="techImgHolder">

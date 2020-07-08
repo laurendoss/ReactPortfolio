@@ -12,7 +12,7 @@ function HomePage () {
 
     return (
       <div className="App">
-      <Container>
+      <Container fluid>
         <Row>
         <Col md={{ offset: 4 }}>
         <ContactCard/>

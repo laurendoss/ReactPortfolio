@@ -7,7 +7,9 @@ import dunderImg from "../images/dunder.png"
 import noteImg from "../images/note.png"
 import budgetImg from "../images/budget.png"
 import cascadiaImg from "../images/cascadia.png"
+import pointMintImg from "../images/pointMintImg.png"
 import Project from '../components/Project/Project'
+import '../components/Project/project.css'
 
 
 
@@ -16,8 +18,20 @@ function Portfolio () {
 
     return (
       <div className="App">
-      <Container>
-        <Row>
+      <Container fluid>
+      <Row className="row">
+          <Col md={{ span: 8, offset: 2}}>
+        <Project
+        name="PointMint"
+        link="https://team-project-02.herokuapp.com/"
+        repo="https://github.com/laurendoss/PointMint"
+        src={pointMintImg}
+        role="Back End Developer"
+        description="Full Stack Application that uses MERN to create a user facing appointment scheduling tool with administrative controls."
+        />
+        </Col>
+        </Row>
+        <Row className="row">
           <Col md={{ span: 8, offset: 2}}>
         <Project
         name="Explore Cocktails"
@@ -29,7 +43,7 @@ function Portfolio () {
         />
         </Col>
         </Row>
-        <Row>
+        <Row className="row">
           <Col md={{ span: 8, offset: 2}}>
         <Project
         name="Dunder Mifflin Employee Directory"
@@ -41,7 +55,7 @@ function Portfolio () {
         />
         </Col>
         </Row>
-        <Row>
+        <Row className="row">
           <Col md={{ span: 8, offset: 2}}>
         <Project
         name="Note Taker"
@@ -53,7 +67,7 @@ function Portfolio () {
         />
         </Col>
         </Row>
-        <Row>
+        <Row className="row">
           <Col md={{ span: 8, offset: 2}}>
         <Project
         name="Budget Tracker"
@@ -65,7 +79,7 @@ function Portfolio () {
         />
         </Col>
         </Row>
-        <Row>
+        <Row className="row">
           <Col md={{ span: 8, offset: 2}}>
         <Project
         name="Explore Cascadia"

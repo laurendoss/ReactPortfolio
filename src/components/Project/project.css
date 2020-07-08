@@ -29,3 +29,7 @@ margin-top: 10px;
     border-color: #008080;
 }
 
+.row{
+    display: flex; 
+     flex-wrap:wrap
+    }

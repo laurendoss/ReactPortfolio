@@ -13,7 +13,7 @@ function HomePage () {
 
     return (
       <div className="App">
-        <Container>
+        <Container fluid>
           <Row>
             <Col md={{ span: 4, offset: 2}}>
         <Photo/>
