@@ -7,7 +7,7 @@ import dunderImg from "../images/dunder.png"
 import noteImg from "../images/note.png"
 import budgetImg from "../images/budget.png"
 import cascadiaImg from "../images/cascadia.png"
-import pointMintImg from "../images/pointMintImg.png"
+import pointMintImg from "../images/pointMintIMG.png"
 import Project from '../components/Project/Project'
 import '../components/Project/project.css'
 
