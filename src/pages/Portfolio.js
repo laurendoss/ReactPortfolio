@@ -23,7 +23,7 @@ function Portfolio () {
           <Col md={{ span: 8, offset: 2}}>
         <Project
         name="PointMint"
-        link="https://team-project-02.herokuapp.com/"
+        link="https://point-mint.herokuapp.com/"
         repo="https://github.com/laurendoss/PointMint"
         src={pointMintImg}
         role="Back End Developer"
