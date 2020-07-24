@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage'
 import Portfolio from './pages/Portfolio'
 import Contact from'./pages/Contact'
 import NavBar from './components/NavBar/NavBar'
-import Resume from "./pages/Resume"
+
 // import FooterPage from './components/Footer/Footer'
 import NavFooter from './components/NavFooter/NavFooter'
 
@@ -27,10 +27,6 @@ class App extends Component{
           </Route>
           <Route exact path="/portfolio" component={Portfolio}>
             <Portfolio />
-            <NavFooter/>
-          </Route>
-          <Route exact path="/resume" component={Resume}>
-            <Resume />
             <NavFooter/>
           </Route>
           <Route exact path="/contact" component={Contact}>
