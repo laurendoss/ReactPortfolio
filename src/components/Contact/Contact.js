@@ -12,7 +12,7 @@ return (
       <h6>Phone Number: 408-891-2183</h6>
       <h6>Email: doss.laurene@gmail.com</h6>
       <h6>GitHub: <a className="contactLink" href="https://github.com/laurendoss">github.com/laurendoss</a></h6>
-    <h6>LinkedIn: <a className ="contactLink" href="linkedin.com/in/lauren-elizabeth-6243511b3">linkedin.com/in/laurendoss</a></h6>
+    <h6>LinkedIn: <a className ="contactLink" href="linkedin.com/in/laurenelizabethpdx">linkedin.com/in/laurenelizabethpdx</a></h6>
   </Card.Body>
 </Card>
 </div>
