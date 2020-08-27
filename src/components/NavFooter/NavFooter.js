@@ -13,7 +13,6 @@ function NavBarFooter () {
     <Nav className="mr-auto">
       <Nav.Link href="/home" className="navLink">Home</Nav.Link>
       <Nav.Link href="/portfolio" className="navLink">Projects</Nav.Link>
-      <Nav.Link href="/Resume" className="navLink">Resume</Nav.Link>
       <Nav.Link href="/contact" className="navLink">Contact</Nav.Link>
     </Nav>
   
