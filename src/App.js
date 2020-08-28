@@ -5,8 +5,6 @@ import HomePage from './pages/HomePage'
 import Portfolio from './pages/Portfolio'
 import Contact from'./pages/Contact'
 import NavBar from './components/NavBar/NavBar'
-
-// import FooterPage from './components/Footer/Footer'
 import NavFooter from './components/NavFooter/NavFooter'
 
 
